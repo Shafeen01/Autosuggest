@@ -3,11 +3,23 @@ h2{
 }
 #home-intro{
     text-align: center;
-    border: 3px solid blue;
+    border: 3px solid black;
 }
 #p2{
     color:blue;
 }
 #home-intro:hover{
     background-color: lightblue;
+}
+#nav{
+    text-align: center;
+    background-color: brown;
+    height:25px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+#nav a{
+    margin: 8px 5px;
+    text-decoration: none;
+    color:white;
 }
