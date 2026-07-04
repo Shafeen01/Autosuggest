@@ -8,23 +8,28 @@
 </head>
 <body>
     <div id="nav">
-        <a href="/">Home</a>
-        <a href="https://github.com" target="_blank">Github</a>
-        <a href="https://leetcode.com">Leetcode</a>
-        <a href="./pages/autosuugest.html">Autosuggest</a>
+        <a href="index.html">Home</a>
+        <a href="https://github.com/24wh1a05g4/Auto-suggest">Github</a>  
+        <a href="https://leetcode.com/">Leetcode</a>  
+        <a href="./pages/autosuggest.html">Auto suggest</a>
     </div>
     <div id ="home-intro">
-    <h2> Home Page</h2>
-    <p id="p1">OPERATION ON USER ID </p>
-    <p id="p2">Toggle, get random user much more</p>
+    <h1> Home page</h1>
+    <p id="p2"> operations on user card</p>
+    <p id="p1"> Toggle,get random user and much more</p>
+
+</div>
+  <div id="card">
+    <div id="card-img">
+     <img id="img" src="./images/jane.png" alt=" no User Image">
+  </div>
+  <div id="action">
+    <h2 id="card-name">Jane Doe</h2>
+    <p id="card-gender">female</p>
+    <button onclick="toggle()" id="card-toggle">Toggle</button>
+    <button onclick="getrandomUser()" >Get Random User</button>
     </div>
-    <div id="card">
-        <div id="card-img">
-            <img src="./images/jane.png" alt="no img found">
-        </div>
-        <h1 id="card-name"> Jane Doe </h1>
-        <p id="card-gender"> Female </p>
-    </div>
-    <script src="index.js"></script>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
